@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friocard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- <a href="#"> <img src="images/header.jpg" alt="alt" class="bg">
+        <img src="images/header-sm.jpg" alt="alt" class="sm"></a> -->
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-light on-main-nav">
+            <a class="navbar-brand on-logo" href="#">Onmeda</a>
+
+            <a href="#" class="navbar-toggler on-main-nav-toggle" type="button" data-toggle="collapse"
+                data-target="#on-main-nav-items" aria-expanded="false" aria-label="Menu">
+                <span class="icon icon-bars"></span>
+        </a>
+
+            <div class="collapse navbar-collapse on-main-nav-items hide" id="on-main-nav-items">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link icon icon-link-right" href="#">Krankheiten &<br>
+                            Symptome</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Krankheiten</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Krankheiten A-Z</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Krankheitsgebiete</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Häufigste Krankheiten</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Seltene Krankheiten</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">ICD-10-Diagnoseschlüssel</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Symptome</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Symptome A-Z</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Symptom-Check</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Häufigste Symptome</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Arztbesuch</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Untersuchung & Behandlung</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Vorsorge</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Impfungen</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Laborwerte</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Themen im
+                                    Fokus</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Coronaviren</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Diabetes</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Wechseljahre</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Vitamin D</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link icon icon-link-right" href="#">Medikamente</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Medikamenten-Ratgeber</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Medikamente A-Z</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Wirkstoffe A-Z</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Wirkstoffgruppen A-Z</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Heilpflanzen</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Was hilft bei
+                                    ...?</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Anwendungsgebiete & Beschwerden</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link icon icon-link-right" href="#">Schwangerschaft &<br>
+                            Familie</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Schwangerschaft &
+                                    Baby</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Kinderwunsch</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Schwangerschaft</a></li>
+                                    <li><a href="#" class="icon icon-link-right">Geburt</a>
+                                    </li>
+                                    <li><a href="#" class="icon icon-link-right">Mein
+                                            Baby</a></li>
+                                    <li><a href="#" class="icon icon-link-right">Mein
+                                            Kind</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Frau & Mann</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Sexualität & Partnerschaft</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Verhütung</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Teenager</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Frauengesundheit</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Männergesundheit</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link icon icon-link-right" href="#">Gesund
+                            leben</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Sport & Ernährung</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="#" class="icon icon-link-right">Sport &
+                                            Bewegung</a></li>
+                                    <li><a href="#" class="icon icon-link-right">Diät</a>
+                                    </li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Ernährung</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Nährstofflexikon</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Sucht</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Rauchen</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Alkohol</a></li>
+                                    <li><a href="#" class="icon icon-link-right">Drogen</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Entspannung</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="#" class="icon icon-link-right">Gesund
+                                            reisen</a></li>
+                                    <li><a href="#" class="icon icon-link-right">Gesund
+                                            schlafen</a></li>
+                                    <li><a href="#" class="icon icon-link-right">Schönheit
+                                            & Wellness</a></li>
+                                    <li><a href="#" class="icon icon-link-right">Traditionelle
+                                            chinesische Medizin</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Weitere Ratgeber</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="#" class="icon icon-link-right">Gesunde
+                                            Haut</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Zahnmedizin</a></li>
+                                    <li><a href="#" class="icon icon-link-right">Pflege</a>
+                                    </li>
+                                    <li><a href="#" class="icon icon-link-right">Tipps
+                                            für den Alltag</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link icon icon-link-right" href="#">Psychologie</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Psychische
+                                    Erkrankungen</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Angst & Zwang</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Depression & Manie</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Persönlichkeitsstörungen</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Psychische Krankheiten A-Z</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Psychotherapie &
+                                    Selbsthilfe</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Psychotherapie</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Selbsthilfe</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Mental gesund
+                                    bleiben</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="#" class="icon icon-link-right">Job &
+                                            Karriere</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Beziehung & Familie</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Entspannung & Selbstentfaltung</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Faszination Psyche</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Psyche kurz erklärt</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Magazin Psyche</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Selbsttests mentale Gesundheit</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Gehirnjogging</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link icon icon-link-right" href="#">Service &<br> Selbsttests</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Service</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Newsletter</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Alexa Skill "Eisprungrechner"</a></li>
+                                    <li><a href="#" class="icon icon-link-right">Erste
+                                            Hilfe</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Selbsttests</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Biologisches Alter</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">BMI-Rechner</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Kalorienrechner</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Gesundheits-Check</a></li>
+                                    <li><a href="#" class="icon icon-link-right">Alle
+                                            Selbsttests</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Interaktives &
+                                    Medien</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="#" class="icon icon-link-right">Spiele</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Lexika</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Krankheitserreger</a></li>
+                                    <li><a href="#" class="icon icon-link-right">Anatomie
+                                            & Physiologie</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Strahlenmedizin</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link icon icon-link-right" href="#">Forum</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Alle Foren</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="#" class="icon icon-link-right">Foren
+                                            A-Z</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Frauen & Männer</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Gynäkologie</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Männergesundheit</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Partnerschaft, Trennung & Co.</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Verhütung</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Schwangerschaft
+                                    & Kind</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Forum Kinderwunsch</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Forum Schwangerschaft</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Kinderentwicklung</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Kinderkrankheiten</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Krankheitsgebiete</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Coronavirus</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Augenheilkunde</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Hämorrhoiden</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Krebserkrankungen</a></li>
+                                    <li><a href="#"
+                                            class="icon icon-link-right">Venenprobleme</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown d-md-none">
+                        <a class="nav-link icon icon-link-right" href="#">Newsletter</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="on-nav-icons">
+                <a class="on-nav-games" href="#"></a>
+            </div>
+            <div class="form-inline on-search-header">
+                <input type="checkbox" id="on-search-toggle" class="on-search-toggle">
+                <label for="on-search-toggle" class="icon icon-search"></label>
+                <input type="search" name="q" class="form-control" placeholder="Suchbegriff eingeben"
+                    data-autosuggest="{method: 'GET', url:'/suche/search_service.php?action=suggest&resultType=json&q=[AUTOSUGGEST]&portal=ONMEDA_DE', styleConfig: {ulClassName: 'list-unstyled on-suggested-search-results on-suggested-search-results-header'}, onsubmit: function(r){window.location.href = r.url;}}">
+                <button class="btn" type="submit">Suchen<span class="on-search-icon"></span></button>
+            </div>
+            <style>
+                .sticky .on-main-nav-toggle {
+                    top: 1rem;
+                }
+
+                .sticky .on-logo {
+                    margin-bottom: 13px;
+                }
+
+                .on-logo-funke {
+                    position: absolute;
+                    top: 4.35rem;
+                    left: auto;
+                    right: 3.2rem;
+                    width: 88px;
+                    height: 12px;
+                    line-height: 1;
+                }
+
+                .sticky .on-logo-funke {
+                    top: 3.2rem;
+                }
+
+                .on-logo-funke>img {
+                    display: inline-block;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                @media (min-width: 768px) {
+                    .on-logo-funke>img.mobile {
+                        display: none;
+                    }
+                }
+
+                .sticky .on-main-nav-items .nav-item>ul {
+                    top: 9rem;
+                }
+
+                @media (max-width: 767px) {
+                    .on-main-nav {
+                        padding-bottom: 1.2625rem;
+                    }
+
+                    .on-logo-funke {
+                        top: 2.7rem;
+                        left: 50%;
+                        right: auto;
+                        transform: translateX(-50%);
+                    }
+
+                    .on-logo-funke>img.desktop {
+                        display: none;
+                    }
+
+                    .on-main-nav-items.collapse,
+                    .on-main-nav-items.collapsing {
+                        top: 4.0125rem;
+                    }
+                }
+            </style>
+            <a class="on-logo-funke" href="#" target="_blank"><img class="desktop"
+                    src="images/logo-funke-gesundheit.png"><img class="mobile"
+                    src="fonts/logo-funke-gesundheit.svg"></a>
+
+        </nav>
+    </header>
+    <div class="container">
+        <main class="content">
+            <h1 class="heading">
+                Der Winter ist in Deutschland die gefährlichste Jahreszeit für Menschen, die an Bluthochdruck leiden! 89
+                % der Herzinfarkte und Schlaganfälle treten im Winter auf
+            </h1>
+            <img src="images/1.jpg" alt="alt" class="content-img">
+            <p class="text">
+                Die Ergebnisse einer Stichprobenstudie zeigen, dass nur 48 % der Deutschen von ihrem arteriellen
+                Bluthochdruck wissen, nur 34 % dagegen behandelt werden und nur 11 % die Behandlung für wirksam halten.
+                Und viele berichten von einem Anstieg der Krankheit in der Nebensaison, <b>wenn der Herbst in den Winter
+                    übergeht</b>.Das ist verständlich. Der Winter mit seinen Schwankungen des Luftdrucks, großen
+                Unterschieden
+                zwischen Tag- und Nachttemperaturen, Wind und Frost steht vor der Tür. Es ist kein Zufall, dass
+                Herz-Kreislauf-Unfälle - <b>Herzinfarkte und Schlaganfälle</b> - am häufigsten in der Nebensaison
+                auftreten. In
+                dieser Zeit kommt es auch zu plötzlichen Veränderungen in den Blutgefäßen des menschlichen Herzens und
+                Gehirns.
+                Wenn wir über die <b>Auswirkungen des Wetters</b> sprechen, geht es nicht nur um die Lufttemperatur.
+                Dabei
+                spielen eine ganze Reihe von Faktoren eine Rolle: Temperatur, Feuchtigkeit, Luftdruck,
+                Windgeschwindigkeit usw. Abrupte Veränderungen dieser Parameter haben spürbare Auswirkungen auf den
+                gesamten Körper, insbesondere auf den Zustand der Blutgefäße.
+                Ein plötzlicher Kälteeinbruch ist an sich schon ein natürlicher Faktor, der die Wahrscheinlichkeit von
+                Gefäßspasmen erhöht, <b>so dass der Blutdruck ansteigen</b> und Kopfschmerzen oder Schwindel angesichts
+                niedriger Temperaturen auftreten können.So erhöht sich bei Frost, insbesondere bei starkem Wind, <b>das
+                    Risiko von Herzinfarkten, Schlaganfällen und plötzlichen Todesfällen.</b> Besonders gefährlich ist
+                es, wenn
+                man aus einem gut gewärmten Raum in die Kälte geht.
+            </p>
+            <img src="images/2.jpg" alt="alt" class="content-img">
+            <p class="text">
+                Wie Wetterfaktoren die menschliche Gesundheit beeinflussen
+            </p>
+            <p class="text">
+                <b>Erhöhte Luftfeuchtigkeit.</b> Reduziert den Sauerstoffgehalt in der Luft, was bei gesunden Menschen
+                zu
+                erhöhter Müdigkeit und Schläfrigkeit führt. Verschlechtert die Gesundheit von Asthmatikern, Menschen mit
+                Herzproblemen und Menschen mit Gelenkerkrankungen.
+            </p>
+            <p class="text">
+                <b>Starker Wind.</b> Provoziert Darmkrämpfe, Magenschmerzen und Schlaflosigkeit.
+            </p>
+            <p class="text">
+                <b>Frost.</b> Kurzatmigkeit bei Asthmatikern. Menschen mit Bluthochdruck bekommen Bluthochdruck und
+                Herzbeschwerden.
+            </p>
+            <p class="text">
+                <b>Verringerung des atmosphärischen Drucks.</b> Kurzatmigkeit, Schwäche und Kurzatmigkeit betreffen
+                Asthmatiker
+                und Herzpatienten. Ein starker Blutdruckabfall bei Hypotonikern.
+            </p>
+            <p class="text">
+                <b>Ein Anstieg des atmosphärischen Drucks.</b> Bluthochdruckpatienten reagieren mit Schmerzen und
+                erhöhtem
+                Risiko für Herzinfarkt und Schlaganfall
+            </p>
+            <p class="text">
+                <b>Magnetischer Sturm.</b> Alle wetterfühligen Menschen leiden darunter. Blutdruckanstieg,
+                Kopfschmerzen,
+                Herzrhythmusstörungen, Reizbarkeit und Angstzustände.
+            </p>
+            <h3>Fragen des Arztes: Wie können Bluthochdruckpatienten die negativen Auswirkungen des Wetters loswerden?
+            </h3>
+            <div class="info">
+                <img src="images/3.jpg" alt="alt">
+                <p class="text">
+                    <b>Dr. med. Mark Dubiel</b>
+                </p>
+                <p class="text">
+                    Oberarzt, Klinik für Innere Medizin/Kardiologie, Unfallkrankenhaus Berlin, Lehrkrankenhaus der
+                    Charité (Direktor: Prof. F.X. Kleber), Berlin
+
+                    Diagnostik und konservative Therapie von strukturellen Herzerkrankungen (Koronare Herzkrankheit,
+                    Herzklappenfehler, Kardiomyopathien, Herzrhythmusstörungen / Vorhofflimmern, Bluthochdruck) und
+                    Gefäßerkrankungen (Arterien- und Venenerkrankungen)
+
+                </p>
+            </div>
+            <div style="clear: both;"></div>
+            <p class="text">
+                <b>- Welche Maßnahmen sollten ergriffen werden, um sicherzustellen, dass Wetterschwankungen nicht zu
+                    einer
+                    Verschlechterung des Wohlbefindens führen?</b>
+            </p>
+            <p class="text">
+                - Zunächst einmal werden Menschen nicht als Meteoropathen geboren, sondern werden unter dem Einfluss von
+                Umweltfaktoren und ihrer eigenen Lebensweise zu Meteoropathen. Auch das Alter spielt eine Rolle. Um
+                nicht von den Launen des Wetters abhängig zu sein, bedarf es eines vernünftigen Tagesablaufs,
+                ausreichender körperlicher Aktivität und einer angemessenen Ernährung.
+            </p>
+            <p class="text">
+                <b>- Sollten Sie Ihre Zeit im Freien einschränken, wenn Sie ein Herzleiden haben?</b>
+            </p>
+            <p class="text">
+                - Wenn es möglich ist, sollten Sie bei strengem Frost besser im Haus bleiben. Das heißt aber nicht, dass
+                man nicht nach draußen gehen sollte. Wenn das Wetter es zulässt, ist ein halbstündiger Spaziergang ein
+                Muss, vor allem vor dem Schlafengehen.
+            </p>
+            <p class="text">
+                <b>- Was ist die beste Kleidung, um bei kaltem Wetter warm zu bleiben?</b>
+            </p>
+            <p class="text">
+                - Alle Ärzte empfehlen, mehrere Schichten zu tragen: Lieber ein paar dünne Pullover als einen dicken
+                Pullover. Sie sollten Kleidung aus natürlichen Materialien bevorzugen. In jedem Fall sollte Kleidung,
+                die mit dem Körper in Berührung kommt, nicht synthetisch sein.
+            </p>
+            <p class="text">
+                <b>- Warum?</b>
+            </p>
+            <p class="text">
+                - Synthetik ist nicht atmungsaktiv, erzeugt eine hohe Luftfeuchtigkeit, kühlt schnell aus und gibt diese
+                Kälte an den Körper weiter.
+            </p>
+            <p class="text">
+                <b>- Was sollte ein Mensch mit Bluthochdruck tun, wenn er das Haus verlassen muss und die
+                    Außentemperatur
+                    sehr niedrig ist?</b>
+            </p>
+            <p class="text">
+                - Als Erstes sollte man den Rat des Arztes befolgen. In der Regel müssen diese Menschen die
+                verschriebenen Medikamente immer einnehmen. Sie sollten auch Medikamente mit sich führen, die die
+                Herzkranzgefäße schnell erweitern, falls Sie einen Angina pectoris-Anfall bekommen.
+            </p>
+            <p class="text">
+                <b>- Hinweise auf ein wirksames Mittel, das Bluthochdruckpatienten helfen kann, ihren Blutdruck bei
+                    schlechtem Wetter zu normalisieren</b>
+            </p>
+            <p class="text">
+                - Ich empfehle Friocard, ein Mittel der neuen Generation, um das Herz-Kreislauf-System
+                wiederherzustellen und den Blutdruck auf ein altersgerechtes Niveau zu senken, ohne die Erweiterung der
+                Blutgefäße zu erzwingen. Es ist völlig sicher, hat keine Nebenwirkungen und kann ohne ärztliche Aufsicht
+                eingenommen werden.
+            </p>
+            <img src="images/4.jpg" alt="alt" class="content-img">
+            <p class="text">
+                Es ist ein einzigartiges Mittel, das für die Einnahme im Winter entwickelt wurde, wenn das
+                Herz-Kreislauf-System stark belastet ist. Friocard normalisiert den Herz- und Atemrhythmus, erweitert
+                die Blutgefäße und beruhigt das Nervensystem. Senkt sanft und unschädlich Ihren Blutdruck und hält ihn
+                im normalen Bereich
+            </p>
+            <p class="text" style="margin-bottom: 0;">
+                <b>- Wie wirkt die Friocard auf den Körper?</b>
+            </p>
+            <p class="text" style="margin-top: 0;">
+                Die Friocard arbeitet in drei Stufen: <br>
+                <b>1. Löst Ablagerungen in den Blutgefäßen auf</b> <br>
+                Löst atherosklerotische Plaques, Blutgerinnsel und Kalziumkalk auf. Vergrößert das Lumen der Gefäße auf
+                bis zu 99,71 % des Normalwerts und stellt die Blutzirkulation wieder her. <br>
+                <b>2. Beseitigt die Auswirkungen einer schlechten Durchblutung</b> <br>
+                Beseitigt oder lindert deutlich Beschwerden wie Bluthochdruck, Kopfschmerzen, Krampfadern, Thrombose.
+                Tinnitus, Schwindel, Schwellungen, Sehschärfe und geistige Klarheit verschwinden. Gewicht und
+                Fettstoffwechsel werden normalisiert. <br>
+                <b>2. Beseitigt die Auswirkungen einer schlechten Durchblutung</b> <br>
+                Es verhindert die Bildung neuer Plaques und reduziert das Schlaganfallrisiko um den Faktor 11.
+
+            </p>
+            <p class="text">
+                <b>- Wo kann ich die Friocard kaufen?</b>
+            </p>
+            <p class="text">
+                - Für den Vertrieb der Friocard haben wir eine spezielle Abteilung eingerichtet, die sich mit den
+                Anwendungen beschäftigt. Alle, die die Friocard mit Versand erhalten möchten, müssen ihren Namen und
+                ihre Kontaktdaten angeben. Ein Berater wird sich dann mit Ihnen in Verbindung setzen, um einen
+                geeigneten Liefertermin zu vereinbaren. Wir haben versucht, alles so einfach wie möglich zu gestalten,
+                damit jeder Zugang zu dem Produkt hat, auch wenn Sie noch nie etwas online bestellt haben.
+            </p>
+            <p class="text">
+                Wir vertreiben die <a href="#">Friocard</a> nun seit zwei Monaten. In dieser Zeit haben wir viele
+                Dankesschreiben von
+                Menschen erhalten, die an Bluthochdruck leiden. Dies beweist einmal mehr, <b>dass das Produkt
+                    Bluthochdruckpatienten hilft, den Winter gut zu überstehen, ohne das Risiko eines Infarkts oder
+                    Schlaganfalls!</b>
+            </p>
+            <p class="text">
+                Speziell für unsere Leser haben wir ein Bestellformular für das Produkt <a href="#">Friocard</a>
+            </p>
+            <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+            <img src="images/product.jpg" alt="alt"
+                style="max-width: 200px; width: 100%; display: block; margin: 15px auto;">
+            <div class="form_block">
+                <h3 class="sub-heading frm" style="margin: 10px 0;text-align: center;">UM EINE FRIOCARD ZU BESTELLEN,
+                    GEBEN SIE BITTE UNTEN IHRE DATEN EIN:</h3>
+                <div class="prices">
+                    <div class="old">
+                        <span class="x_price_previous">75</span> <span class="x_currency">€</span>
+                    </div>
+                    <div class="new">
+                        <span class="x_price_current">39</span> <span class="x_currency">€</span>
+                    </div>
+                </div>
+                <form action="subscribe1.php" method='post'>
+                    <input type='text' name='name' placeholder='IHR NAME' />
+                    <input type='text' name='phone' placeholder='IHRE TELEFONNUMMER' />
+                    <input type='hidden' name='campaign_id' value="1003134" />
+                    <input type="hidden" name="country_code" value="DE">
+                    <input type="hidden" name="sid1" value="{sid1}">
+                    <input type="hidden" name="sid2" value="{sid2}">
+                    <input type="hidden" name="sid3" value="{sid3}">
+                    <input type="hidden" name="sid5" value="{subid}">
+                    <input type="hidden" name="pixel_id" value="{pixel_id}">
+                    <button type="submit">IHRE BESTELLUNG AUFGEBEN
+                    </button>
+                </form>
+                <p class="text" style="font-weight: bold; text-align: center;">Das Sonderangebot ist gültig bis
+                    Ende des Tages <span class="date-0" style="color: red;">09.11.2021</span></p>
+            </div>
+            <div class="comments_block">
+                <h3 style="font-size: 20px; font-weight: bold; margin-bottom: 20px;">KOMMENTARE:</h3>
+                <div class="comment">
+                    <img src="images/ava/1.jpg" alt="alt" class="ava">
+                    <div class="comment-text">
+                        <p class="comment-name">Niclas Fieck</p>
+                        <p>
+                            Vielen Dank für diesen tollen Artikel! Alle Menschen mit Bluthochdruck können lesen und
+                            etwas Neues über die Behandlung lernen.
+                        </p>
+                    </div>
+                </div>
+                <div class="comment">
+                    <img src="images/ava/2.jpg" alt="alt" class="ava">
+                    <div class="comment-text">
+                        <p class="comment-name">Axel Schieber</p>
+                        <p>
+                            Danke an den Arzt für dieses Mittel! Ich habe es ausprobiert, und ich habe mich wirklich
+                            besser gefühlt. In einer Woche werden wir sehen, ob es irgendwelche Ergebnisse gibt. Es ist
+                            noch zu früh, um das zu sagen, ich werde später darüber berichten. Aber keine Druckspitzen,
+                            man spürt sie nicht einmal. Es wird also alles gut werden, denke ich!
+                        </p>
+                        <img src="images/otz1.jpg" alt="alt">
+                    </div>
+                </div>
+                <div class="comment">
+                    <img src="images/ava/3.jpg" alt="alt" class="ava">
+                    <div class="comment-text">
+                        <p class="comment-name">Steve Hüller</p>
+                        <p>
+                            Ich habe in einer medizinischen Fachzeitschrift über dieses Mittel gelesen. Der Fachartikel
+                            stammt von einem berühmten Kardiologen!
+                        </p>
+                    </div>
+                </div>
+                <div class="comment">
+                    <img src="images/ava/4.jpg" alt="alt" class="ava">
+                    <div class="comment-text">
+                        <p class="comment-name">Cornelia Trentsch</p>
+                        <p>
+                            Ehrlich gesagt, ist es ein großartiges Produkt! Ich habe es sofort bestellt, als ich diesen
+                            Artikel gelesen habe. Als ich die Friocard erhalten habe, habe ich sofort angefangen, sie
+                            einzunehmen. Ich habe noch am selben Abend eine Verbesserung meiner Gesundheit festgestellt.
+                            Mein Blutdruck war jetzt normal. Normal war für mich nicht normal als Hypertoniker, sondern
+                            als normaler Mensch mit normalem Blutdruck. Mein Zustand nach der Einnahme ist großartig.
+                            Ich fühlte mich stärker und schlief besser.
+                        </p>
+                        <img src="images/otz2.jpg" alt="alt">
+                    </div>
+                </div>
+                <div class="comment">
+                    <img src="images/ava/5.jpg" alt="alt" class="ava">
+                    <div class="comment-text">
+                        <p class="comment-name">Henry Leitinger</p>
+                        <p>
+                            Mein Blutdruck scheint in Ordnung zu sein, aber meine Mutter hat ständig Schmerzen. Ich
+                            werde es für sie bestellen und hoffe, dass es hilft.
+                        </p>
+                    </div>
+                </div>
+                <div class="comment">
+                    <img src="images/ava/6.jpg" alt="alt" class="ava">
+                    <div class="comment-text">
+                        <p class="comment-name">Susanna Stenzel</p>
+                        <p>
+                            Ich habe die Friocard ausprobiert. Früher bekam ich fast täglich abends Kopfschmerzen,
+                            selbst Schmerzmittel halfen nicht. Später fand ich heraus, dass meine Kopfschmerzen durch
+                            Druck verursacht wurden. Ich habe diesen Artikel im Internet gesehen und beschlossen, ihn
+                            auszuprobieren. Innerhalb eines Monats war ich ein anderer Mensch! Mein Kopf tut mir nicht
+                            mehr weh, meine Krampfadern sind weg und das Wichtigste: Ich habe 20 kg abgenommen! Ich habe
+                            von 94 kg auf 74 kg abgenommen! Das bedeutet, dass mein Kreislauf wieder in Schwung kommen
+                            muss! Ich empfehle die Friocard jetzt auf jeden Fall weiter!
+                        </p>
+                        <img src="images/otz3.jpg" alt="alt">
+                    </div>
+                </div>
+                <div class="comment">
+                    <img src="images/ava/7.jpg" alt="alt" class="ava">
+                    <div class="comment-text">
+                        <p class="comment-name">Martin Seidel</p>
+                        <p>
+                            Ich habe schon genug von den Blutdruckspitzen. Die Unannehmlichkeiten und Schmerzen machen
+                            das Leben unmöglich. Ich weiß nicht mehr, was ich tun soll. Ich nehme von Zeit zu Zeit
+                            verschiedene Mittel, aber sie helfen nicht.
+                        </p>
+                    </div>
+                </div>
+                <div class="comment">
+                    <img src="images/ava/8.jpg" alt="alt" class="ava">
+                    <div class="comment-text">
+                        <p class="comment-name">Norman Kruschke</p>
+                        <p>
+                            Ich selbst hatte aufgrund meines Blutdrucks Probleme, bis hin zu Mikroinfarkten. Dank meiner
+                            Frau fand sie die Friocard und bestellte sie. Jetzt habe ich überhaupt keine
+                            Blutdruckprobleme mehr.
+                        </p>
+                        <img src="images/otz4.jpg" alt="alt">
+                    </div>
+                </div>
+                <div class="comment">
+                    <img src="images/ava/9.jpg" alt="alt" class="ava">
+                    <div class="comment-text">
+                        <p class="comment-name">Marko Bromann</p>
+                        <p>
+                            Ich bestätige jedes Wort - die Friocard ist hervorragend, eines der wirtschaftlichsten und
+                            wirksamsten Mittel! Ich habe es mit eigenen Augen gesehen.
+                        </p>
+                    </div>
+                </div>
+                <div class="comment">
+                    <img src="images/ava/10.jpg" alt="alt" class="ava">
+                    <div class="comment-text">
+                        <p class="comment-name">Melanie Meyer</p>
+                        <p>
+                            Bluthochdruck ist schon schwer genug zu ertragen, und im Winter ist es wegen der niedrigen
+                            Temperaturen und der Witterungsbedingungen noch schwerer. Vielen Dank für den Artikel und
+                            für die Empfehlung eines wirksamen Mittels.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/backfix.js"></script>
+</body>
+
+</html>
